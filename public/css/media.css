@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    grid-template-columns: 10% 1fr;
+    padding: 0 1vw;
+  }
+
+  main .citation {
+    padding: 2vh 5vh;
+  }
+  main .cards {
+    width: 100%;
+  }
+  main .work {
+    grid-template-columns: 1fr;
+  }
+  main .work .cards2 {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5vh;
+  }
+
+  footer section {
+    padding: 3vh;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  header {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  header .menu {
+    display: block;
+  }
+
+  main .citation {
+    padding: 2vh 5vh;
+  }
+  main .citation h2 {
+    font-size: 20px;
+  }
+  main .cards {
+    grid-template-columns: 1fr;
+  }
+  main .cards div {
+    border-radius: unset;
+  }
+  main .work {
+    grid-template-columns: 1fr;
+    margin: 5vh auto;
+  }
+  main .work .about {
+    padding: unset;
+  }
+  main .work .cards2 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    margin: 5vh auto;
+    grid-gap: 20px;
+  }
+
+  footer section {
+    padding: 3vh;
+    height: auto;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
