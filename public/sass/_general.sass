@@ -5,4 +5,49 @@
     text-decoration: none
 
 header
-    
+    background-color: $bgcolor-grey
+    display: grid
+    grid-template-columns: 30% 1fr
+    align-items: center
+    height: 10vh
+    padding: 0 10vw
+
+    h1
+        color: white
+
+    .menu
+        display: flex
+        justify-content: flex-end
+        color: yellow
+
+        li
+            padding: 0 3vh
+            a
+                color: $fontcolor
+
+footer
+    text-align: center
+    section
+        background-color: $lightblue
+        color: white
+        height: 30vh
+        display: grid
+        align-content: space-evenly
+        padding: 3vh 35vh
+        p
+            line-height: 2rem
+
+        .fa-brands
+            font-size: 30px
+            opacity: 0.4
+            margin: 10px 15px
+    .copyright
+        background-color: $bgcolor-grey
+        color: $fontcolor
+        height: 7vh
+        display: flex
+        align-items: center
+        justify-content: center
+
+h3
+    font-size: 2rem

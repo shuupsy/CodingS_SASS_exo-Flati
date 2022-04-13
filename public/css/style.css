@@ -5,4 +5,59 @@
   text-decoration: none;
 }
 
+header {
+  background-color: #363B47;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  align-items: center;
+  height: 10vh;
+  padding: 0 10vw;
+}
+header h1 {
+  color: white;
+}
+header .menu {
+  display: flex;
+  justify-content: flex-end;
+  color: yellow;
+}
+header .menu li {
+  padding: 0 3vh;
+}
+header .menu li a {
+  color: #7A848D;
+}
+
+footer {
+  text-align: center;
+}
+footer section {
+  background-color: #3676BB;
+  color: white;
+  height: 30vh;
+  display: grid;
+  align-content: space-evenly;
+  padding: 3vh 35vh;
+}
+footer section p {
+  line-height: 2rem;
+}
+footer section .fa-brands {
+  font-size: 30px;
+  opacity: 0.4;
+  margin: 10px 15px;
+}
+footer .copyright {
+  background-color: #363B47;
+  color: #7A848D;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
