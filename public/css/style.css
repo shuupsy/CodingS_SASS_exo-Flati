@@ -111,7 +111,6 @@ main .work {
   margin: 13vh auto;
   display: grid;
   grid-template-columns: 40% 60%;
-  justify-content: center;
   color: #7A848D;
 }
 main .work .about {
@@ -133,6 +132,7 @@ main .work .cards2 div {
   background-color: #363B47;
   text-align: center;
   border-radius: 3%;
+  width: 200px;
   display: grid;
   grid-template-columns: 1fr;
   align-items: space-between;
@@ -179,13 +179,27 @@ footer .copyright {
   justify-content: center;
 }
 
-@media screen and (max-width: 1024px) {
-  .cards {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  header {
+    grid-template-columns: 10% 1fr;
+    padding: 0 1vw;
+  }
+  main .citation {
+    padding: 2vh 5vh;
+  }
+  main .cards {
     width: 100%;
   }
+  main .work {
+    grid-template-columns: 1fr;
+  }
+  main .work .cards2 {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5vh;
+  }
 
-  .cards2 {
-    grid-template-columns: repeat(3, 50px);
+  footer section {
+    padding: 3vh;
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
@@ -200,6 +214,9 @@ footer .copyright {
   main .citation {
     padding: 2vh 5vh;
   }
+  main .citation h2 {
+    font-size: 20px;
+  }
   main .cards {
     grid-template-columns: 1fr;
   }
@@ -209,16 +226,19 @@ footer .copyright {
   main .work {
     grid-template-columns: 1fr;
   }
+  main .work .about {
+    padding: unset;
+  }
   main .work .cards2 {
     grid-template-columns: 1fr;
     justify-content: center;
-    width: 40%;
     margin: 5vh auto;
     grid-gap: 20px;
   }
 
   footer section {
-    padding: 3vh 10vh;
+    padding: 3vh;
+    height: auto;
   }
 }
 
