@@ -48,6 +48,35 @@ main .citation #pro {
   background-color: #3676BB;
   color: white;
 }
+main .cards {
+  width: 80%;
+  margin: 5vh auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+main .cards div {
+  background-color: #E2E0E0;
+  border-radius: 5%;
+  height: 45vh;
+  display: grid;
+  color: #7A848D;
+}
+main .cards div i {
+  background-color: #fff;
+  color: #3676BB;
+  font-size: 30px;
+  padding: 10px;
+  margin: auto;
+  border-radius: 50%;
+}
+main .cards div p {
+  font-size: 1rem;
+  padding: 0 4vh;
+}
 
 footer {
   text-align: center;
@@ -86,6 +115,10 @@ h2 {
 
 h3 {
   font-size: 2rem;
+}
+
+h4 {
+  color: #363B47;
 }
 
 .blue {
