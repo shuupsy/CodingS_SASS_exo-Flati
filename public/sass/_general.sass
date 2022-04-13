@@ -4,6 +4,27 @@
     list-style: none
     text-decoration: none
     font-family: Arial, Helvetica, sans-serif
+body
+    background-color: #EFEFF1
+
+h2
+    font-weight: 500
+
+h3
+    font-size: 2rem
+    color: $lightgrey
+    font-weight: 100
+h4
+    color: $darkgrey
+    font-size: 13px
+.blue
+    color: $lightblue
+button
+    background-color: #26A2CC
+    color: white
+    border-radius: 5%
+    border: none
+    padding: 15px 20px
 
 header
     background-color: $darkgrey
@@ -39,15 +60,14 @@ main
             color: $darkgrey
         #pro
             @include pro
-
     .cards
         width: 80%
         margin: 5vh auto
         display: grid
         grid-template-columns: repeat(4,1fr)
         align-items: center
-        justify-content: center
-        gap: 10px
+        justify-content: space-evenly
+        gap: 6vh
         text-align: center
         div
             background-color: $bgcolor-grey
@@ -65,9 +85,32 @@ main
                 border-radius: 50%
             p
                 font-size: 1rem
-                padding: 0 4vh
-                
-
+                padding: 0 4vh         
+    .work
+        width: 80%
+        margin: 13vh auto
+        display: grid
+        grid-template-columns: 40% 60%
+        justify-content: center
+        color: $lightgrey
+        .about
+            padding-right: 7vh
+            #expl
+                color: #A9A9AA
+        .cards2
+            display: grid
+            grid-template-columns: repeat(3,26vh)
+            justify-content: end
+            gap: 5px
+            div
+                background-color: $darkgrey
+                text-align: center
+                border-radius: 5%
+                img
+                    width:100%
+                h3
+                    font-size: 1rem
+                    font-weight: bold
 footer
     text-align: center
     section
@@ -77,11 +120,11 @@ footer
         display: grid
         align-content: space-evenly
         padding: 3vh 35vh
-        h3
-            font-weight: 100
         p
             line-height: 2rem
-
+        h3
+            color: white
+            opacity: 0.7
         .fa-brands
             font-size: 30px
             opacity: 0.4
@@ -93,14 +136,3 @@ footer
         display: flex
         align-items: center
         justify-content: center
-
-h2
-    font-weight: 500
-
-h3
-    font-size: 2rem
-h4
-    color: $darkgrey
-
-.blue
-    color: $lightblue
