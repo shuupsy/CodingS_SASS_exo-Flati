@@ -11,7 +11,7 @@ header {
   display: grid;
   grid-template-columns: 30% 1fr;
   align-items: center;
-  height: 10vh;
+  height: 8vh;
   padding: 0 10vw;
 }
 header h1 {
@@ -27,6 +27,10 @@ header .menu li {
 }
 header .menu li a {
   color: #7A848D;
+}
+
+main #banner {
+  width: 100%;
 }
 
 footer {
