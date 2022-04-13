@@ -32,6 +32,22 @@ header .menu li a {
 main #banner {
   width: 100%;
 }
+main .citation {
+  background-color: #E8E6E0;
+  color: #7A848D;
+  text-align: center;
+  height: 30vh;
+  display: grid;
+  align-content: space-evenly;
+  padding: 3vh 35vh;
+}
+main .citation #simplicity {
+  color: #363B47;
+}
+main .citation #pro {
+  background-color: #3676BB;
+  color: white;
+}
 
 footer {
   text-align: center;
@@ -64,8 +80,16 @@ footer .copyright {
   justify-content: center;
 }
 
+h2 {
+  font-weight: 500;
+}
+
 h3 {
   font-size: 2rem;
+}
+
+.blue {
+  color: #3676BB;
 }
 
 /*# sourceMappingURL=style.css.map */
