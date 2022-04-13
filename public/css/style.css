@@ -225,6 +225,7 @@ footer .copyright {
   }
   main .work {
     grid-template-columns: 1fr;
+    margin: 5vh auto;
   }
   main .work .about {
     padding: unset;
