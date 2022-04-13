@@ -51,7 +51,6 @@ header h1 {
 header .menu {
   display: flex;
   justify-content: flex-end;
-  color: yellow;
 }
 header .menu li {
   padding: 0 3vh;
@@ -70,6 +69,7 @@ main .citation {
   height: 30vh;
   display: grid;
   align-content: space-evenly;
+  justify-content: center;
   padding: 3vh 35vh;
 }
 main .citation #simplicity {
@@ -94,7 +94,6 @@ main .cards div {
   align-items: center;
   color: #7A848D;
   padding: 2vh 4vh;
-  height: 30vh;
 }
 main .cards div i {
   background-color: #fff;
@@ -178,6 +177,49 @@ footer .copyright {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .cards {
+    width: 100%;
+  }
+
+  .cards2 {
+    grid-template-columns: repeat(3, 50px);
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  header {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+  header .menu {
+    display: block;
+  }
+
+  main .citation {
+    padding: 2vh 5vh;
+  }
+  main .cards {
+    grid-template-columns: 1fr;
+  }
+  main .cards div {
+    border-radius: unset;
+  }
+  main .work {
+    grid-template-columns: 1fr;
+  }
+  main .work .cards2 {
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 40%;
+    margin: 5vh auto;
+    grid-gap: 20px;
+  }
+
+  footer section {
+    padding: 3vh 10vh;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
