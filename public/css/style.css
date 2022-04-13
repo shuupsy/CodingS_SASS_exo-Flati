@@ -90,9 +90,11 @@ main .cards {
 main .cards div {
   background-color: #E2E0E0;
   border-radius: 5%;
-  height: 35vh;
   display: grid;
+  align-items: center;
   color: #7A848D;
+  padding: 2vh 4vh;
+  height: 30vh;
 }
 main .cards div i {
   background-color: #fff;
@@ -104,7 +106,6 @@ main .cards div i {
 }
 main .cards div p {
   font-size: 1rem;
-  padding: 0 2vh;
 }
 main .work {
   width: 80%;
@@ -125,7 +126,7 @@ main .work .about #expl {
 }
 main .work .cards2 {
   display: grid;
-  grid-template-columns: repeat(3, 26vh);
+  grid-template-columns: repeat(3, 30vh);
   justify-content: end;
   gap: 5px;
 }
