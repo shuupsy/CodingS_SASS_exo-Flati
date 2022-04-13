@@ -84,15 +84,13 @@ main .cards {
   margin: 5vh auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  justify-content: space-evenly;
   gap: 6vh;
   text-align: center;
 }
 main .cards div {
   background-color: #E2E0E0;
   border-radius: 5%;
-  height: 45vh;
+  height: 35vh;
   display: grid;
   color: #7A848D;
 }
@@ -106,7 +104,7 @@ main .cards div i {
 }
 main .cards div p {
   font-size: 1rem;
-  padding: 0 4vh;
+  padding: 0 2vh;
 }
 main .work {
   width: 80%;
