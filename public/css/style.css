@@ -132,6 +132,10 @@ main .work .cards2 div {
   background-color: #363B47;
   text-align: center;
   border-radius: 5%;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: space-between;
+  justify-content: center;
 }
 main .work .cards2 div img {
   width: 100%;
@@ -139,6 +143,7 @@ main .work .cards2 div img {
 main .work .cards2 div h3 {
   font-size: 1rem;
   font-weight: bold;
+  color: white;
 }
 
 footer {
